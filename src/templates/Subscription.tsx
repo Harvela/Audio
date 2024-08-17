@@ -56,7 +56,7 @@ const SubscriptionPage: React.FC = () => {
                 <li key={idx} className="flex flex-row gap-2 text-[14px]">
                   <svg
                     className={`h-5 w-5 shrink-0 dark:text-green-400 ${
-                      index === prices.length - 1 ? 'text-white' : 'text-white '
+                      index === prices.length - 1 ? 'text-white' : 'text-black '
                     }`}
                     fill="currentColor"
                     viewBox="0 0 20 20"
