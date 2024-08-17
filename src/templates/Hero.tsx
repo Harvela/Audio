@@ -7,13 +7,22 @@ const Hero: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="flex w-[60%] flex-col gap-16">
-        <div>
-          <p className="font-regular mb-2 text-start text-[16px] text-black">
-            Welcome back
-          </p>
-          <h2 className="text-start text-[24px] font-semibold text-black">
-            Murhula Metre
-          </h2>
+        <div className="flex flex-row items-center justify-between">
+          <div>
+            <p className="font-regular mb-2 text-start text-[16px] text-black">
+              Welcome back
+            </p>
+            <h2 className="text-start text-[24px] font-semibold text-black">
+              Murhula Metre
+            </h2>
+          </div>
+
+          <Link
+            href="/subscription"
+            className="rounded-[5px] bg-black px-8 py-2 text-white"
+          >
+            S&apos;abonner
+          </Link>
         </div>
 
         <form className="flex w-full flex-row gap-16 rounded-[5px] bg-white p-8 shadow-md">
